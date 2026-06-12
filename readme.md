@@ -2,7 +2,7 @@
 
 My journey learning Python.
 
-I'm a QA engineer with five years in games with EA and Microsoft. 
+I'm a QA engineer with over five years in games with EA and Microsoft. 
 That includes test design, feature ownership, and breaking things professionally. This repo is me
 building the other half of the craft: writing the code instead of just
 testing it. Everything here is built from scratch as I learn, bugs and all.
