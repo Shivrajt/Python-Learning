@@ -1,5 +1,7 @@
 print("Hello World!")
-name = input("What is your name? ")
+
+name = input("What is your name? ").strip().title()
+
 print(f"Nice to meet you, {name}!") 
 
 while True:
