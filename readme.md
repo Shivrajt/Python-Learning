@@ -19,10 +19,9 @@ and the input-validation logic is separated from the response logic.
 python greeting.py
 
 ### the_number_guessing_game.py
-The computer picks a secret number from 1 to 100 and you try to guess it,
-with "too high" / "too low" hints (and some abuse) after each guess. Built
-on the input-validation pattern from greeting.py, plus boundary checks that
-reject guesses outside 1–100 and a random target via `random.randint`.
+The computer picks a secret number from 1 to 100 and you get 7 tries to guess
+it, with "too high" / "too low" hints (and abuse) after each guess. Lose by
+running out of attempts and it reveals the answer. Included is a guess counter and boundary checks for the 1–100 range, and a max-attempts limit. The attempt count and bounds arechecked on every input, valid or not.
 
 **Run it:**
 `python the_number_guessing_game.py`
