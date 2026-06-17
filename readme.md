@@ -21,7 +21,7 @@ python greeting.py
 ### the_number_guessing_game.py
 The computer picks a secret number from 1 to 100 and you get 7 tries to guess
 it, with "too high" / "too low" hints (and abuse) after each guess. Lose by
-running out of attempts and it reveals the answer. Included is a guess counter and boundary checks for the 1–100 range, and a max-attempts limit. The attempt count and bounds arechecked on every input, valid or not.
+running out of attempts and it reveals the answer. Included is a guess counter and boundary checks for the 1–100 range, and a max-attempts limit. The attempt count and bounds are checked on every input, valid or not.
 
 **Run it:**
 `python the_number_guessing_game.py`
